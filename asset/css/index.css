@@ -50,6 +50,11 @@ nav img {
     padding-inline: 5%;
 }
 
+.nav1 :hover{
+    transition: transform 2s;
+    transform: scale(2) ;
+}
+
 header{
     height: 100dvh;
     width: 100dvw;
@@ -133,6 +138,9 @@ section{
    
 }
 
+
+
+
 .reason{
     display: flex;
     flex-direction: row-reverse;
@@ -142,7 +150,7 @@ section{
 
 
 .reason img{
-    width: 200vw;
+    width: 50vw;
     height: 50vh;
     padding-right: 3%;
     border-radius: 15px;
@@ -205,13 +213,23 @@ main{
     display: none;
 }
 
-
+.imag1{
+    padding-top: 2%;
+}
 
 .pics img{
     width: 20vw;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(85, 19, 133);
 
+}
+
+
+
+.imag1:hover{
+    transition: transform 2s;
+    transform: scale(1.2);
+    animation: none;
 }
 
 
@@ -250,6 +268,10 @@ padding-left: 10%;
 
 }
 
+.people :hover{
+    transition: transform 2s;
+    transform: scale(1.1);
+}
 
 .form{
     height: 60vh;
@@ -365,7 +387,12 @@ footer{
         background-image: url(../image/photo/imges.jpeg) linear-gradient(rgba(0, 0 , 0, 0.5), rgba(0, 0 , 0, 0.5));
 
     }
+   
 
+
+.choice{
+    font-size: 2em;
+}
 
     .reason{
         padding-left: 25%;
@@ -389,13 +416,30 @@ footer{
     
 
     .people{
+        position: relative;
     flex-direction: column;
+    justify-content: space-around;
     text-align: center;
+    height: 150vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    }
+
+   
+    .people img{
+        width: 50vw;
     }
     
+ 
+    
+
     .imag2{
-        width: 100vw;
+        width: 90vw;
     }
+
+.pied{
+    height: 50vh;
+}
 
     .form{
         height: 80vw;
@@ -404,6 +448,8 @@ footer{
     .form img{
         display: none;
     }
+
+
     .content{
         text-align: center;
         width: 100vw;
